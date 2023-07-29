@@ -15,6 +15,11 @@ body{
     height: 100vh;
     background-image: url(images/UniversityofPennsylvania_Vertical_Reverse_RGB-2.png);
     background-size: 60%;
-    background-position: 120% 40%;
+    background-position: 128% 40%;
     background-repeat: no-repeat;
+}
+
+.logo{
+    width: 11%;
+    height: auto;
 }
