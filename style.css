@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
 
@@ -14,12 +14,65 @@ body{
     width: 100%;
     height: 100vh;
     background-image: url(images/UniversityofPennsylvania_Vertical_Reverse_RGB-2.png);
-    background-size: 60%;
-    background-position: 128% 40%;
+    background-size: 50%;
+    background-position: 115% 50%;
     background-repeat: no-repeat;
 }
 
+.container {
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .logo{
-    width: 10%;
+    width: 220px;
     height: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #f4a7bb;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.1s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text h1 span{
+    color: #f4a7bb;
 }
