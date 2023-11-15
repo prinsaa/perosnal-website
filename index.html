@@ -21,7 +21,7 @@
                     </ul>
                 </nav>
                 <div class="header-text">
-                    <p>Software Engineer</p>
+                    <p>Software Engineering</p>
                     <h1>Hello World, <br> I'm <span>Prinsa</span> Patel</h1>
                 </div>
             </div>
@@ -33,13 +33,66 @@
             <div class ="container">
                 <div class = "row">
                     <div class= ".about-col-1"></div>
-                    <img src="images/croppedSchoolLogo.png" class="school-logo">
+                        <img src="images/croppedSchoolLogo.png" class="school-logo">
                     <div class= ".about-col-2">
-                        <h1>About Me</h1>
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="about-me-para">I'm a highly motivated and adaptable individual with a strong background in both computer science and biochemistry. My
+                        non-traditional educational journey (as I'm a career switcher) has equipped me with a diverse skill set, from software
+                        development and data analysis to environmental consulting. I'm goal-oriented and thrive in a team
+                        environment, believing that collaboration fosters innovation and growth. I believe in continuous self-improvement and
+                        strive to be the best version of myself, both personally and professionally! My experience as a teacher assistant and my
+                        involvement in social impact initiatives reflect my dedication to helping others succeed, becoming a better leader, and
+                        making a positive impact on the world. I enjoy meeting new people, learning about different cultures, and embracing new
+                        opportunities. I thrive being a <span class="highlight">jack of all trades!</span></p>
+                    
+                        <div class="tab-titles">
+                            <p class="tab-links active-link"  onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>    
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming</span><br>Java, Python, C</li>
+                                <li><span>Web Development</span><br>HTML, CSS, JavaScript</li>
+                                <li><span>Product Management</span><br>Collaboration, Strategy</li>
+                                <li><span>Agile</span><br>Timely Delivery</li>
+                                <li><span>Communication</span><br>Technical Concepts for diverse stakeholders</li>
+                                <li><span>Leadership</span><br>Teamwork, Continuous Improvement</li>
+                                <li><span>Problem-Solving</span><br>Complex Issues, High-quality Solutions</li>
+                                <li><span>Strategic Thinking</span><br>Product Vision, Strategic Mindset</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Current</span><br>Master's in Computer Science from University of Pennsylvania</li>
+                                <li><span>2021</span><br>HBSc in Biochemistry from University of Toronto</li>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
             </div>    
         </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+                
+            }
+        </script>
 
     </body>
 </html>
