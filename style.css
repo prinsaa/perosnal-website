@@ -263,12 +263,62 @@ p {
    margin-top: 5%;
    display: flex;
    justify-content: center;
-    /* Adjust the margin value as needed */
 }
 
 .eachwork a p{
     margin-top: 4%;
     display: flex;
     justify-content: center;
-    /* Adjust the margin value as needed */
 }
+
+/*Contact Page*/
+
+.contact-left{
+    flex-basis: 35%;
+
+}
+
+.contact-right {
+    flex-basis: 60%;
+
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.linkedin a i {
+    color: #f4a7bb;
+    transition: transform 0.5s;
+}
+
+.linkedin a i:hover{
+    color: #535353;
+    transform: translateY(-5px);
+}
+
+.btn2 {
+    background-color: #f4a7bb;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.btn2:hover {
+    background-color: #535353;
+    /* Change background color on hover */
+}
+
+.contact-right form{
+    width: 100%;
+}
+
