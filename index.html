@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Personal Portfolio</title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/0d5b1c580f.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div id = "header">
@@ -15,7 +16,7 @@
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Experience</a></li>
+                        <!-- <li><a href="#">Experience</a></li> -->
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -36,13 +37,13 @@
                         <img src="images/croppedSchoolLogo.png" class="school-logo">
                     <div class= ".about-col-2">
                         <h1 class="sub-title">About Me</h1>
-                        <p class="about-me-para">I'm a highly motivated and adaptable individual with a strong background in both computer science and biochemistry. My
-                        non-traditional educational journey (as I'm a career switcher) has equipped me with a diverse skill set, from software
+                        <p class="about-me-para">I'm an ambitious and adaptable individual with a strong background in both computer science and biochemistry. My
+                        non-traditional educational journey has equipped me with a diverse skill set, from software
                         development and data analysis to environmental consulting. I'm goal-oriented and thrive in a team
                         environment, believing that collaboration fosters innovation and growth. I believe in continuous self-improvement and
                         strive to be the best version of myself, both personally and professionally! My experience as a teacher assistant and my
                         involvement in social impact initiatives reflect my dedication to helping others succeed, becoming a better leader, and
-                        making a positive impact on the world. I enjoy meeting new people, learning about different cultures, and embracing new
+                        making a positive impact on the world. I enjoy meeting new people and embracing new
                         opportunities. I thrive being a <span class="highlight">jack of all trades!</span></p>
                     
                         <div class="tab-titles">
@@ -52,10 +53,10 @@
 
                         <div class="tab-contents active-tab" id="skills">
                             <ul>
-                                <li><span>Programming</span><br>Java, Python, C</li>
+                                <!-- <li><span>Programming</span><br>Java, Python, C</li>
                                 <li><span>Web Development</span><br>HTML, CSS, JavaScript</li>
                                 <li><span>Product Management</span><br>Collaboration, Strategy</li>
-                                <li><span>Agile</span><br>Timely Delivery</li>
+                                <li><span>Agile</span><br>Timely Delivery</li> -->
                                 <li><span>Communication</span><br>Technical Concepts for diverse stakeholders</li>
                                 <li><span>Leadership</span><br>Teamwork, Continuous Improvement</li>
                                 <li><span>Problem-Solving</span><br>Complex Issues, High-quality Solutions</li>
@@ -78,31 +79,83 @@
         <!--------services------->
         <div id="services">
             <div class="containers">
-                <h1 class="sub-title">My Services</h1>
+                <h1 class="sub-title"></h1>
                 <div class="services-list">
                     <div>
+                        <i class="fa-solid fa-code"></i>
                         <h2>Web Development</h2>
-                        <p>I specialize in building robust web applications using HTML, CSS, and JavaScript. From crafting visually appealing user
-                        interfaces to ensuring seamless interactivity, I strive to create compelling online experiences. If you're looking to
-                        establish a strong online presence or enhance your existing web platform, I have the skills and passion to bring your
-                        vision to life.</p>
+                        <p>Crafting robust web apps with HTML, CSS, and JavaScript. Elevate your online presence with my passion and skills.</p>
                         <a href="#">Learn more</a>
                     </div>
                     <div>
+                        <i class="fa-solid fa-code-branch"></i>
                         <h2>Programming Skills</h2>
-                        <p>Proficient in Java, Python, and C, my programming skills are versatile and ready to tackle diverse challenges in
-                        software development. Whether it's building scalable applications, optimizing code for efficiency, or diving into
-                        algorithmic problem-solving, I'm committed to delivering high-quality solutions. If you have a software project
-                        demanding expertise and precision, I'm ready to contribute to its success.</p>
+                        <p>Versatile in Java, Python, and C. Ready for diverse software challenges. Committed to high-quality solutions for your
+                        projects.</p>
                         <a href="#">Learn more</a>
                     </div>
                     <div>
+                        <i class="fa-solid fa-bars-progress"></i>
                         <h2>Product Management</h2>
-                        <p>In product management, I excel in collaboration and strategy. Working seamlessly within cross-functional teams, I bring
-                        a unique blend of technical understanding and strategic thinking to shape product strategies aligned with business
-                        goals. From ideation to execution, I actively contribute to driving success. If you're navigating the complex landscape
-                        of product development, I'm here to help steer your product toward its full potential.</p>
+                        <p>Excel in collaborative, strategic product management. Blend technical insight with strategy to drive success. Navigate
+                        product development with confidence.</p>
                         <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------portfolio----->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <!-- Civic Central -->
+                        <div class="eachwork">                       
+                            <h2>Civic Central</h2>
+                            <p>• Developed a civic engagement application using <span class="highlight">React, Typescript, and Vite</span></p>
+                            <p>• Implemented real-time communication features</p>
+                            <p>• Integrated Google Civic <span class="highlight">API</span> for data enrichment and up-to-date accuracy</p>
+                            <p>• Designed and optimized the user interface for a seamless experience</p>
+                            <a href="https://github.com/drkchn/mosa-upenn-SoC-2023" target="_blank">
+                                <i class="fa-brands fa-github fa-fade fa-2xl" style="color: #B3D89C;"></i>
+                            </a>
+                        </div>
+                        
+                        <!-- Penn-Shredder -->
+                        
+                        <div class="eachwork">
+                            <h2>
+                                Penn-Shredder                                                   
+                            </h2>
+                            <p>• Designed and developed a shell in C, implementing process runtime restriction</p>
+                            <a href=" " target="_blank">
+                                <i class="fa-sharp fa-solid fa-eye-slash fa-fade fa-xl" style="color: #B3D89C;"></i>
+                                <p>Request access to the code</p>
+                            </a>
+                        </div>
+                        
+                        <!-- COVID Data Analyzer -->
+                        <div class="eachwork">
+                            <h2>COVID Data Analyzer</h2>
+                            <p>• Utilized appropriate data structures, design principles, and patterns to create</p>
+                            <a href=" " target="_blank">
+                                <i class="fa-sharp fa-solid fa-eye-slash fa-fade fa-xl" style="color: #B3D89C;"></i>
+                                <p>Request access to the code</p>
+                            </a>
+                          
+                        </div>
+                        
+                        <!-- Single-Player Game Suite -->
+                        <div class="eachwork">
+                            <h2>Single-Player Game Suite</h2>
+                            <p>• Developed "Blackjack" Solitaire, "Evil" Hangman, Tower Blaster, and Battleship game in Java/Python</p>
+                            <a href=" " target="_blank">
+                                <i class="fa-sharp fa-solid fa-eye-slash fa-fade fa-xl" style="color: #B3D89C;"></i>
+                                <p>Request access to the code</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
