@@ -336,6 +336,13 @@ form input, form textarea{
     border-radius: 6px;
 }
 
+#msg{
+    color: #B3D89C;
+    display: block;
+    margin-top: -180px;
+    margin-bottom: 50px;
+}
+
 /*copyright*/
 
 .copyright{
@@ -358,6 +365,14 @@ nav .fa-solid{
 
 
 @media only screen and (max-width: 600px){
+    #msg{
+        margin-top: -20px;
+    }
+
+    .btn2 {
+        margin-bottom: 10%;
+    }
+
     .header-text{
         margin-top: 100%;
         font-size: 16px;
@@ -421,7 +436,7 @@ nav .fa-solid{
     }
 
     form input,form textarea {
-        padding: 2px;
+        padding: 3px;
     }
 
     #services {
