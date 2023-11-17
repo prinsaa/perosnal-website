@@ -14,17 +14,17 @@
                 <nav>
                     <img src = "images//pptest2-removebg-preview.png" class="logo">
                     <ul id="sidemenu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
                         <!-- <li><a href="#">Experience</a></li> -->
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#services">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
                         <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                     </ul>
                     <i class="fa-solid fa-bars" onclick="openmenu()"></i>
                 </nav>
                 <div class="header-text">
-                    <p>Software Engineering</p>
+                    <p>Aspiring Software Engineer</p>
                     <h1>Hello World, <br> I'm <span>Prinsa</span> Patel</h1>
                     <div class="linkedin">
                         <a href="https://www.linkedin.com/in/prinsa-patel/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
@@ -40,9 +40,9 @@
         <div id= "about">
             <div class ="container">
                 <div class = "row">
-                    <div class= ".about-col-1"></div>
+                    <div class= "about-col-1"></div>
                         <img src="images/croppedSchoolLogo400.png" class="school-logo">
-                    <div class= ".about-col-2">
+                    <div class= "about-col-2">
                         <h1 class="sub-title">About Me</h1>
                         <p class="about-me-para">I'm an ambitious and adaptable individual with a strong background in both computer science and biochemistry. My
                         non-traditional educational journey has equipped me with a diverse skill set, from software
@@ -55,7 +55,8 @@
                     
                         <div class="tab-titles">
                             <p class="tab-links active-link"  onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>    
+                            <p class="tab-links" onclick="opentab('education')">Education</p> 
+                            <p class="tab-links" onclick="opentab('language')">Languages</p>
                         </div>
 
                         <div class="tab-contents active-tab" id="skills">
@@ -77,6 +78,7 @@
                                 <li><span>2021</span><br>HBSc in Biochemistry from University of Toronto</li>
                             </ul>
                         </div>
+                        
 
                     </div>
                 </div>
@@ -92,21 +94,21 @@
                         <i class="fa-solid fa-code"></i>
                         <h2>Web Development</h2>
                         <p>Crafting robust web apps with HTML, CSS, and JavaScript. Elevate your online presence with my passion and skills.</p>
-                        <a href="#">Learn more</a>
+                        <!-- <a href="#">Learn more</a> -->
                     </div>
                     <div>
                         <i class="fa-solid fa-code-branch"></i>
                         <h2>Programming Skills</h2>
                         <p>Versatile in Java, Python, and C. Ready for diverse software challenges. Committed to high-quality solutions for your
                         projects.</p>
-                        <a href="#">Learn more</a>
+                        <!-- <a href="#">Learn more</a> -->
                     </div>
                     <div>
                         <i class="fa-solid fa-bars-progress"></i>
                         <h2>Product Management</h2>
                         <p>Excel in collaborative, strategic product management. Blend technical insight with strategy to drive success. Navigate
                         product development with confidence.</p>
-                        <a href="#">Learn more</a>
+                        <!-- <a href="#">Learn more</a> -->
                     </div>
                 </div>
             </div>
@@ -137,7 +139,7 @@
                                 Penn-Shredder                                                   
                             </h2>
                             <p>• Designed and developed a shell in C, implementing process runtime restriction</p>
-                            <a href=" " target="_blank">
+                            <a href="#contact">
                                 <i class="fa-sharp fa-solid fa-eye-slash fa-fade fa-xl" style="color: #B3D89C;"></i>
                                 <p>Request access to the code</p>
                             </a>
@@ -147,7 +149,7 @@
                         <div class="eachwork">
                             <h2>COVID Data Analyzer</h2>
                             <p>• Utilized appropriate data structures, design principles, and patterns to create</p>
-                            <a href=" " target="_blank">
+                            <a href="#contact">
                                 <i class="fa-sharp fa-solid fa-eye-slash fa-fade fa-xl" style="color: #B3D89C;"></i>
                                 <p>Request access to the code</p>
                             </a>
@@ -158,7 +160,7 @@
                         <div class="eachwork">
                             <h2>Single-Player Game Suite</h2>
                             <p>• Developed "Blackjack" Solitaire, "Evil" Hangman, Tower Blaster, and Battleship game in Java/Python</p>
-                            <a href=" " target="_blank">
+                            <a href="#contact">
                                 <i class="fa-sharp fa-solid fa-eye-slash fa-fade fa-xl" style="color: #B3D89C;"></i>
                                 <p>Request access to the code</p>
                             </a>
@@ -225,7 +227,6 @@
             function closemenu() {
                 sidemenu.style.right = "-200px";
             }            
-
 
         </script>
 
