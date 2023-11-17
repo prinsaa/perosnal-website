@@ -101,9 +101,10 @@ nav ul li a:hover::after{
 }
 
 .school-logo{
-    width: 30%;
-    height: auto;
-    border-radius: 15px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    border-radius: 20px;
+    margin-top: 180px;
     /* background-color: #333; */
 }
 
