@@ -13,13 +13,15 @@
             <div class ="container"> 
                 <nav>
                     <img src = "images//pptest2-removebg-preview.png" class="logo">
-                    <ul>
+                    <ul id="sidemenu">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <!-- <li><a href="#">Experience</a></li> -->
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                     </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
                 </nav>
                 <div class="header-text">
                     <p>Software Engineering</p>
@@ -187,6 +189,9 @@
                 </div>
 
             </div>
+            <div class="copyright">
+                <p>Copyright <i class="fa-solid fa-copyright"></i> Prinsa. Made with <i class="fa-solid fa-heart"></i> in Toronto.</p>
+            </div>
 
         </div>
 
@@ -208,6 +213,20 @@
                 document.getElementById(tabname).classList.add("active-tab");
                 
             }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu")
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }            
+
+
         </script>
 
     </body>
