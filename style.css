@@ -356,9 +356,9 @@ form input, form textarea{
     color: #f4a7bb;
 }
 
-a[href="#contact"] {
+/* a[href="#contact"] {
     color: #B3D89C;
-}
+} */
 
 /*---------css for small screens----------*/
 
@@ -383,7 +383,7 @@ nav .fa-solid{
 
     .header-text h1 {
         font-size: 40px;
-        margin-top: 80%;
+        margin-top: 60%;
     }
 
     .header-text p{
