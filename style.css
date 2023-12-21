@@ -370,7 +370,7 @@ nav .fa-solid{
 }
 
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 600px){
     #msg{
         margin-top: -20px;
     }
