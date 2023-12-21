@@ -98,8 +98,11 @@ nav ul li a:hover::after{
 }
 
 .school-logo{
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    /* width: -webkit-fill-available;
+    height: -webkit-fill-available; */
     border-radius: 20px;
     margin-top: 180px;
 }
@@ -367,7 +370,7 @@ nav .fa-solid{
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 900px){
     #msg{
         margin-top: -20px;
     }
