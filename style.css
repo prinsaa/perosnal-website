@@ -246,9 +246,18 @@ p {
 .eachwork{
     margin-bottom: 50px;
     background-color: #262626;
-    padding: 8%;
+    padding: 2rem;
     border-radius: 20px;
 }
+
+.eachwork h2{
+    font-size: 32px;
+}
+
+.eachwork p {
+    font-size: 18px;
+}
+
 
 .eachwork:hover {
     background: #535353;
